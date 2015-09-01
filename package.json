@@ -1,0 +1,26 @@
+{
+  "name": "your-do",
+  "version": "0.0.1",
+  "description": "Backbone Starter App",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-js": "browserify -r ./components/js/main.js:app > ./builds/dev/js/bundle.js -d"
+  },
+  "author": "PJS",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^4.0.0",
+    "grunt-contrib-compass": "^1.0.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-notify": "^0.4.1",
+  },
+  "dependencies": {
+    "backbone": "^1.2.2",
+    "grunt-contrib-jade": "^0.15.0",
+    "jquery": "^2.1.4",
+    "underscore": "^1.8.3"
+  }
+}
