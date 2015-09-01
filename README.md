@@ -30,3 +30,6 @@ See the .bowerrc file
 ```bash
 bower init
 ```
+
+###[Backbone cheat sheet](http://www.igloolab.com/downloads/backbone-cheatsheet.pdf)
+
