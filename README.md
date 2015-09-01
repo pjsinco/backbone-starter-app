@@ -1,22 +1,9 @@
 # Starter template for projects
 
-**Create package.json:**
+**Configure package.json and install the packages:**
 ```bash
-npm init
+sudo npm install
 ```
-
-**Add grunt**
-```bash
-npm install grunt --save-dev
-```
-
-**Add other grunt libraries we like**
-```bash
-npm install grunt-contrib-compass --save-dev
-npm install grunt-contrib-jade --save-dev
-npm install grunt-contrib-watch --save-dev
-```
-
 **Configure Gruntfile.js**
 
 **If using Compass, configure config.rb**
