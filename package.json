@@ -16,6 +16,7 @@
     "grunt-contrib-compass": "^1.0.3",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-notify": "^0.4.1",
+    "grunt-autoprefixer": "^0.4.1"
   },
   "dependencies": {
     "backbone": "^1.2.2",
