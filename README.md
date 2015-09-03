@@ -19,6 +19,13 @@ gem install compass-normalize
 script(src='http://localhost:35729/livereload.js')
 ```
 
+**Add symbolic links in components/js/node_modules:**
+```
+ln -sf ../views
+ln -sf ../models
+ln -sf ../collections
+```
+
 **Maybe update Sass**
 ```bash
 gem update sass
